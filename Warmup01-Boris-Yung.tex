@@ -1,0 +1,242 @@
+\documentclass[]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+\hypersetup{unicode=true,
+            pdftitle={Warmup01-Boris-Yung},
+            pdfborder={0 0 0},
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\usepackage{longtable,booktabs}
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{0}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+%%% Use protect on footnotes to avoid problems with footnotes in titles
+\let\rmarkdownfootnote\footnote%
+\def\footnote{\protect\rmarkdownfootnote}
+
+%%% Change title format to be more compact
+\usepackage{titling}
+
+% Create subtitle command for use in maketitle
+\newcommand{\subtitle}[1]{
+  \posttitle{
+    \begin{center}\large#1\end{center}
+    }
+}
+
+\setlength{\droptitle}{-2em}
+
+  \title{Warmup01-Boris-Yung}
+    \pretitle{\vspace{\droptitle}\centering\huge}
+  \posttitle{\par}
+    \author{}
+    \preauthor{}\postauthor{}
+    \date{}
+    \predate{}\postdate{}
+  
+\usepackage{bbm}
+
+\begin{document}
+\maketitle
+
+\section{\texorpdfstring{\textbf{Star
+Wars}}{Star Wars}}\label{star-wars}
+
+\subsubsection{\texorpdfstring{\emph{Kazuda Xia
+(Kaz)}}{Kazuda Xia (Kaz)}}\label{kazuda-xia-kaz}
+
+\begin{figure}
+\centering
+\includegraphics{https://starwars.fandom.com/wiki/Kazuda_Xiono?file=Kazuda.jpg}
+\caption{Kazuda Xia}
+\end{figure}
+
+A famous quote from Kazuda Xiono:
+
+\begin{quote}
+In my mind, that is what I was- Kazuda Xiono, the best starfighter pilot
+in the galaxy.
+\end{quote}
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule
+Description & Value\tabularnewline
+\midrule
+\endhead
+Species: & Human\tabularnewline
+Gender: & Male\tabularnewline
+Hair Color: & Black\tabularnewline
+Eye Color: & Brown\tabularnewline
+Skin Color: & Light\tabularnewline
+\bottomrule
+\end{longtable}
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\section{\texorpdfstring{\textbf{Cooking
+Recipe}}{Cooking Recipe}}\label{cooking-recipe}
+
+\subsubsection{\texorpdfstring{\emph{Baked Buffalo
+Wings}}{Baked Buffalo Wings}}\label{baked-buffalo-wings}
+
+\subparagraph{ingredients}\label{ingredients}
+
+\begin{itemize}
+\tightlist
+\item
+  1 to 4 pounds chicken wings that have been cut into flats and
+  drumettes.
+\item
+  1 1/2 teaspoons to 2 tablespoons baking powder (using 1 1/2 teaspoons
+  per pound).
+\item
+  1 to 4 teaspoons kosher salt (using 1 teaspoon per pound; use less
+  salt if you're not using Diamond brand).
+\item
+  2 tablespoons hot sauce (Frank's RedHot is traditional) per pound of
+  wings.
+\item
+  1 1/2 to 2 tablespoons unsalted butter per pound of wings.
+\item
+  To serve (optional): Homemade Blue Cheese Dressing, plus celery and
+  carrot sticks.
+\end{itemize}
+
+\subparagraph{Special kitchen tools}\label{special-kitchen-tools}
+
+\begin{itemize}
+\tightlist
+\item
+  Large baking shhet with foil
+\item
+  oven-safe cooling rack
+\end{itemize}
+
+\subparagraph{Steps}\label{steps}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Pat wings dry with a paper towel
+\item
+  Toss them with 1 1/2 teaspoons baking powder and 1 teaspoon kosher
+  salt per pound of wings in a large bowl until thoroughly coated.
+\item
+  Arrange them on the rack with some space between them (the surface
+  will not dry and crisp as well where they touch) and place in your
+  refrigerator uncovered for 8 to 24 hours.
+\item
+  Heat your oven to 450 degrees, with a rack set in the top half of your
+  oven.
+\item
+  Bake your wings for 20 minutes
+\item
+  Flip them with tongs or a spatula, bake them for another 15 minutes
+\item
+  Flip them back over again, and then for 15 final minutes, for a total
+  roasting time of 50 minutes.
+\end{enumerate}
+
+(Addidtion) You might need up to 5 minutes longer for larger wings.
+Wings are done with they are browned and crisp.
+
+\subparagraph{Source}\label{source}
+
+In a medium saucepan, for each \textbf{pound} of wings
+
+Combine 2 tablespoons of hot sauce and 1 1/2 tablespoons (for a hotter
+sauce) to 2 tablespoons (for a mild, more buttery sauce) unsalted butter
+over medium heat until melted, whisking to combine. Set aside.
+
+\emph{There is no special season of the year to enjoy buffalo wings. You
+can enjoy buffalo wings ay any time you wants.}
+
+\emph{There are no any other recipe for bake buffalo wings. If you want
+to have try out different wings, there are pleanty of recipe that can
+teach you how to make other kind of wings!!!}
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\section{\texorpdfstring{\textbf{Euclidean
+Distance}}{Euclidean Distance}}\label{euclidean-distance}
+
+\subsection{\texorpdfstring{\#\#\#Definition \href{}{{[}edit{]}}
+\#\#\#}{\#\#\#Definition {[}edit{]} \#\#\#}}\label{definition-edit}
+
+The \textbf{Eucliden distance} between points \textbf{p} and \textbf{q}
+is the length of the \href{}{line segment} connecting them.
+(\overline{**pq**}).
+
+In Cartesian coordinates(), if
+\[\boldsymbol{p} = (P_{1}, P_{2},\dotsc,P_{n})\] and \boldsymbol{q} =
+are two points in \href{}{Euclidean \emph{n-}space}, then the distance
+9d0 from \textbf{p} to \textbf{q}, or from \textbf{q} to \textbf{p} is
+given by the Pythagorean formula.
+
+d(\textbf{p},\textbf{q}) = d(\textbf{q},\textbf{p}) =
+\sqrt{(q_{1}- p_{1})^2 + (q_{2}- p_{2})^2 + \dots + q_{n}-p_{n}^2} =
+\sqrt{\displaystyle\sum_{i=1}^{10} (q_{i}-p_{i})^2}
+
+The posotion of a point in a Euclidean \emph{n}-space is a
+\href{}{Euclidean vector}. So,\textbf{p} and \textbf{q} may be
+represented as Euclidean vectors, starting from the origin of the space
+(initial point) with ther tips ( terminal points) ending at the two
+points. The \href{}{Euclidean norm}, or \textbf{Euclidean length} or
+\textbf{magnitude} of a vecttor measurethe length of he vector:
+
+\Vmattrix{P} = \sqrt{P_1^2 + P_2^2 + \dots + P_n^2} =
+\sqrt {**P** . **p**},
+
+wherre the last expression involves the \href{}{dot product}.
+
+
+\end{document}
