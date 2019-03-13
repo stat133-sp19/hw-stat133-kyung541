@@ -1,0 +1,90 @@
+[1] "Length:371        "
+[1] "Class :character  "
+[1] "Mode  :character  "
+[1] NA
+[1] NA
+[1] NA
+[1] "Length:371        "
+[1] "Class :character  "
+[1] "Mode  :character  "
+[1] NA
+[1] NA
+[1] NA
+[1] "Min.   :2016  "
+[1] "1st Qu.:2016  "
+[1] "Median :2016  "
+[1] "Mean   :2016  "
+[1] "3rd Qu.:2016  "
+[1] "Max.   :2016  "
+[1] "Min.   :1.000  "
+[1] "1st Qu.:2.000  "
+[1] "Median :2.000  "
+[1] "Mean   :2.518  "
+[1] "3rd Qu.:4.000  "
+[1] "Max.   :4.000  "
+[1] "Min.   : 0.000  "
+[1] "1st Qu.: 1.000  "
+[1] "Median : 4.000  "
+[1] "Mean   : 4.582  "
+[1] "3rd Qu.: 8.000  "
+[1] "Max.   :11.000  "
+[1] "Min.   : 0.00  "
+[1] "1st Qu.:10.00  "
+[1] "Median :27.00  "
+[1] "Mean   :26.75  "
+[1] "3rd Qu.:41.00  "
+[1] "Max.   :59.00  "
+[1] "Length:371        "
+[1] "Class :character  "
+[1] "Mode  :character  "
+[1] NA
+[1] NA
+[1] NA
+[1] "Length:371        "
+[1] "Class :character  "
+[1] "Mode  :character  "
+[1] NA
+[1] NA
+[1] NA
+[1] "Length:371        "
+[1] "Class :character  "
+[1] "Mode  :character  "
+[1] NA
+[1] NA
+[1] NA
+[1] "Min.   : 0.00  "
+[1] "1st Qu.: 1.00  "
+[1] "Median :18.00  "
+[1] "Mean   :13.69  "
+[1] "3rd Qu.:24.00  "
+[1] "Max.   :49.00  "
+[1] "Length:371        "
+[1] "Class :character  "
+[1] "Mode  :character  "
+[1] NA
+[1] NA
+[1] NA
+[1] "Min.   :-245.0  "
+[1] "1st Qu.: -65.5  "
+[1] "Median :   0.0  "
+[1] "Mean   :   3.9  "
+[1] "3rd Qu.: 101.5  "
+[1] "Max.   : 238.0  "
+[1] "Min.   :-31.00  "
+[1] "1st Qu.:  2.00  "
+[1] "Median : 23.00  "
+[1] "Mean   : 73.62  "
+[1] "3rd Qu.:150.00  "
+[1] "Max.   :497.00  "
+[1] "Length:371        "
+[1] "Class :character  "
+[1] "Mode  :character  "
+[1] NA
+[1] NA
+[1] NA
+[1] "Min.   : 4.00  "
+[1] "1st Qu.:14.00  "
+[1] "Median :24.00  "
+[1] "Mean   :25.63  "
+[1] "3rd Qu.:37.00  "
+[1] "Max.   :48.00  "
