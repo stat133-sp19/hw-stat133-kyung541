@@ -16,7 +16,7 @@ knitr::include_graphics("../images/gsw-logo.jpg")
 
 #*How Kevin Durant's(Golden State Warriors) performance during the 2018 season? *#
 
-```{r echo=FALSE, message = FALSE}
+```{r echo=FALSE, message = FALSE, warning = FALSE}
 library(readr)
 library(dplyr)
 library(knitr)
